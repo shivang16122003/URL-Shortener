@@ -1,12 +1,64 @@
-# React + Vite
+# 🔗 URL Shortener Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack URL shortener application built with React and Spring Boot that allows users to create and manage short links with built-in analytics. Inspired by tools like Bitly and TinyURL, but built from scratch.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+> _🔒 Environment variables are secured using `.env` files and not pushed to GitHub._
+
+---
+
+## 🛠️ Tech Stack
+
+### 🔹 Frontend (React + Vite)
+- React with Tailwind CSS
+- React Hook Form
+- Axios for API requests
+- React Router DOM
+- React Query
+- Animations, Spinners, and more
+
+### 🔹 Backend (Spring Boot)
+- Spring Boot + Spring Data JPA
+- Spring Security (JWT-based)
+- PostgreSQL (hosted on Neon)
+- MySQL (used locally for development)
+
+---
+
+## 🌐 Hosting
+
+- **Frontend:** [Netlify](https://www.netlify.com/)
+- **Backend:** [Render](https://render.com/)
+- **Database:** [Neon.tech](https://neon.tech/) (PostgreSQL in production)
+
+---
+
+## 📸 Screenshots
+
+> _I’ll add these soon!_  
+
+---
+
+## ⚙️ Features
+
+- 🔗 Shorten long URLs into custom, trackable links
+- 📊 View click analytics per URL
+- 📋 Copy-to-clipboard functionality
+- 📁 Neatly organized dashboard
+- 🧪 Full backend authentication with JWT
+- 🌍 Deploy-ready with environment isolation
+
+---
+
+## 👨‍💻 How to Run Locally
+
+### Frontend
+```bash
+cd url-shortener-react
+npm install
+npm run dev
